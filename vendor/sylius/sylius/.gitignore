@@ -1,0 +1,43 @@
+/var/*
+!/var/.gitkeep
+
+/public/assets
+/public/bundles
+/public/css
+/public/js
+/public/media
+
+/app/config/parameters.yml
+
+/bin/symfony_requirements
+
+/docs/.doctrees
+
+/composer.lock
+/vendor
+/node_modules
+
+/etc/build/*
+!/etc/build/.gitignore
+
+/behat.yml
+/phpspec.yml
+
+/.env
+/.env.prod
+/.env.staging
+/.env.test
+/.env.test_cached
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php_cs
+/.php_cs.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+###< phpunit/phpunit ###

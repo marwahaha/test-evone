@@ -1,0 +1,4 @@
+<?php return array (
+  0 => 9223372036854775807,
+  1 => 'O:49:"Symfony\\Component\\Validator\\Mapping\\ClassMetadata":10:{s:11:"constraints";a:0:{}s:18:"constraintsByGroup";a:0:{}s:17:"traversalStrategy";i:1;s:7:"getters";a:0:{}s:13:"groupSequence";a:0:{}s:21:"groupSequenceProvider";b:0;s:7:"members";a:1:{s:5:"items";a:1:{i:0;O:52:"Symfony\\Component\\Validator\\Mapping\\PropertyMetadata":7:{s:11:"constraints";a:0:{}s:18:"constraintsByGroup";a:0:{}s:17:"cascadingStrategy";i:2;s:17:"traversalStrategy";i:1;s:5:"class";s:34:"Sylius\\Component\\Order\\Model\\Order";s:4:"name";s:5:"items";s:8:"property";s:5:"items";}}}s:4:"name";s:34:"Sylius\\Component\\Order\\Model\\Order";s:10:"properties";a:1:{s:5:"items";r:10;}s:12:"defaultGroup";s:5:"Order";}',
+);
