@@ -10742,6 +10742,14 @@
         <argument>2048</argument>
       </call>
       <call method="addListener">
+        <argument>console.command</argument>
+        <argument type="collection">
+          <argument type="service" id="debug.debug_handlers_listener"/>
+          <argument>configure</argument>
+        </argument>
+        <argument>2048</argument>
+      </call>
+      <call method="addListener">
         <argument>kernel.request</argument>
         <argument type="collection">
           <argument type="service" id="router_listener"/>
@@ -21818,7 +21826,7 @@
       <argument type="service" id="sonata.intl.templating.helper.datetime"/>
     </service>
     <service id="sonata.intl.timezone_detector.chain" class="Sonata\IntlBundle\Timezone\ChainTimezoneDetector" public="true">
-      <argument>Europe/Berlin</argument>
+      <argument>Europe/Paris</argument>
       <call method="addDetector">
         <argument type="service" id="sonata.intl.timezone_detector.locale"/>
       </call>
@@ -22396,7 +22404,7 @@
     <service id="jms_serializer.datetime_handler" class="JMS\Serializer\Handler\DateHandler" public="true">
       <tag name="jms_serializer.subscribing_handler"/>
       <argument>Y-m-d\TH:i:sP</argument>
-      <argument>Europe/Berlin</argument>
+      <argument>Europe/Paris</argument>
       <argument>true</argument>
     </service>
     <service id="jms_serializer.array_collection_handler" class="JMS\Serializer\Handler\ArrayCollectionHandler" public="true">

@@ -617,4 +617,5 @@
   'BitBagSyliusCmsPlugin:Page/Crud:_slugField.html.twig' => __DIR__.'/../../../vendor/bitbag/cms-plugin/src/Resources/views/Page/Crud/_slugField.html.twig',
   'BitBagSyliusCmsPlugin:Page/Crud:_form.html.twig' => __DIR__.'/../../../vendor/bitbag/cms-plugin/src/Resources/views/Page/Crud/_form.html.twig',
   'BitBagSyliusCmsPlugin:Page:preview.html.twig' => __DIR__.'/../../../vendor/bitbag/cms-plugin/src/Resources/views/Page/preview.html.twig',
+  'BitBagSyliusMailChimpPlugin::_subscribe.html.twig' => __DIR__.'/../../../vendor/bitbag/mailchimp-plugin/src/Resources/views/_subscribe.html.twig',
 );

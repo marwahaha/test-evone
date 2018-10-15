@@ -1,6 +1,6 @@
 <?php
 
-/* @SyliusShop/Homepage/index.html.twig */
+/* bundles/SyliusShopBundle/Homepage/index.html.twig */
 class __TwigTemplate_19fb0359606bf095519ce66848dcc4926c81f835e3b3117ff808cdb811e10e2c extends Twig_Template
 {
     private $source;
@@ -12,7 +12,7 @@ class __TwigTemplate_19fb0359606bf095519ce66848dcc4926c81f835e3b3117ff808cdb811e
         $this->source = $this->getSourceContext();
 
         // line 1
-        $this->parent = $this->loadTemplate("@SyliusShop/layout.html.twig", "@SyliusShop/Homepage/index.html.twig", 1);
+        $this->parent = $this->loadTemplate("@SyliusShop/layout.html.twig", "bundles/SyliusShopBundle/Homepage/index.html.twig", 1);
         $this->blocks = array(
             'content' => array($this, 'block_content'),
         );
@@ -26,10 +26,10 @@ class __TwigTemplate_19fb0359606bf095519ce66848dcc4926c81f835e3b3117ff808cdb811e
     protected function doDisplay(array $context, array $blocks = array())
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@SyliusShop/Homepage/index.html.twig"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "bundles/SyliusShopBundle/Homepage/index.html.twig"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@SyliusShop/Homepage/index.html.twig"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "bundles/SyliusShopBundle/Homepage/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
@@ -51,7 +51,7 @@ class __TwigTemplate_19fb0359606bf095519ce66848dcc4926c81f835e3b3117ff808cdb811e
 
         // line 4
         echo "    ";
-        $this->loadTemplate("BitBagSyliusMailChimpPlugin::_subscribe.html.twig", "@SyliusShop/Homepage/index.html.twig", 4)->display($context);
+        $this->loadTemplate("BitBagSyliusMailChimpPlugin::_subscribe.html.twig", "bundles/SyliusShopBundle/Homepage/index.html.twig", 4)->display($context);
         // line 5
         echo "    <h2 class=\"ui horizontal section divider header\">
         ";
@@ -74,7 +74,7 @@ class __TwigTemplate_19fb0359606bf095519ce66848dcc4926c81f835e3b3117ff808cdb811e
 
     public function getTemplateName()
     {
-        return "@SyliusShop/Homepage/index.html.twig";
+        return "bundles/SyliusShopBundle/Homepage/index.html.twig";
     }
 
     public function isTraitable()
@@ -104,6 +104,6 @@ class __TwigTemplate_19fb0359606bf095519ce66848dcc4926c81f835e3b3117ff808cdb811e
     {#{{ bitbag_cms_render_block('bloc1') }}#}
 
 {#{% endblock %}#}
-", "@SyliusShop/Homepage/index.html.twig", "/var/www/workspace/test-evonne/templates/bundles/SyliusShopBundle/Homepage/index.html.twig");
+", "bundles/SyliusShopBundle/Homepage/index.html.twig", "/var/www/workspace/test-evonne/templates/bundles/SyliusShopBundle/Homepage/index.html.twig");
     }
 }
